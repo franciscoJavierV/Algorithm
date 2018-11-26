@@ -47,11 +47,8 @@ public class Modelo {
 					hash.put(a[1], a[3]);
 					}else {
 						System.out.println("ya existe");
-					}
-					String s = hash.get(a[3]);
-					System.out.println(s);
-				}
-			
+					}	     
+				}			
 				if (a[0].equals("assing")) {
 					String old[] = a.clone();
 					String valor = a[3];
@@ -146,7 +143,14 @@ public class Modelo {
 								 System.out.println(cadena);
 							}
 							if(linea.contains("rem_doubles")) {
-								System.out.println("rem_doubles");								
+								System.out.println("rem_doubles");
+								FileReader fs = new FileReader(ruta1);
+								BufferedReader bs = new BufferedReader(f);
+								FileWriter ws = new FileWriter(ruta1);
+								PrintWriter ps = new PrintWriter(w);
+								String linear = null;				
+								Scanner scaner = new Scanner(new File(ruta1));
+								
 							}
 						}
 		

@@ -1,4 +1,6 @@
 create "pacho" as fg
 create "pacho2" as pacho2
 assing "pacho" to pacho
+assing "pacho2" to pa
 pacho = sort file_in asc
+pa = sort file_in asc
